@@ -1,6 +1,9 @@
 # customSettingCards
 
-Prints a custom invitations for persons included in <i>guests.txt</i> file.
+Prints custom PNG invitations for persons included in <i>guests.txt</i> file.
+
+## Usage
+
 <br><br>First, create a invitation template with: <br>
 <code>python3 createBackground.py</code>
 <br><br>
