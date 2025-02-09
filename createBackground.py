@@ -5,12 +5,6 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 bg = Image.new('RGBA', (384, 480), 'white')
 
-# bg.save('background.png')
-
-# exit()
-
-# Add a guidelines to cut(black frame)
-
 bgCopy = bg.copy()
 
 width, height = bgCopy.size

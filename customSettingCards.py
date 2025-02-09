@@ -16,22 +16,18 @@ for guest in readGuestsFromFile:
 
 # Set the fonts:
 
-antykwaFontFolder = 'fonts/antt'
-
 qtMerryScriptFont = ImageFont.truetype('fonts/QTMerryScript.otf', 16)
 
-# antykwaFont = ImageFont.truetype(os.path.join(antykwaFontFolder, 'AntykwaTorunska-Regular.otf'), 10)
+nameFont = ImageFont.truetype('fonts/AntykwaTorunska-BoldItalic.otf', 20)
 
-nameFont = ImageFont.truetype(os.path.join(antykwaFontFolder, 'AntykwaTorunska-BoldItalic.otf'), 20)
+dateFont = ImageFont.truetype('fonts/AntykwaTorunska-Regular.otf', 20)
 
-dateFont = ImageFont.truetype(os.path.join(antykwaFontFolder, 'AntykwaTorunska-Regular.otf'), 20)
 
 # Create an invitation for each guest:
 
 for guest in guests:
 
     # Load the flower background:
-
     imTemp = Image.open('template.png')
     width, height = imTemp.size
 
